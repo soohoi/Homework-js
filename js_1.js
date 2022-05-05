@@ -86,11 +86,11 @@ function checkAge(age) {
   if(typeof age == 'number'){
     if (age < age_2) {
       console.log("You don`t have access cause your age is " + age + " It`s less then")}
-    else if (age >= age_2 && age < age_3){
+      else if (age >= age_2 && age < age_3){
       console.log("Welcome  !");}
-    else if (age > age_3){
+      else if (age > age_3){
       console.log("Keep calm and look Culture channel");}
-    else {
+      else {
       console.log("Technical work");}
     }else{
       console.log('Error')
@@ -122,26 +122,21 @@ checkAge("2");
 
 // 4***:
 // Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
-// let age = Number;
-// function checkAge(age) {
-//         if (age < age_2) {
-//         alert("You don`t have access cause your age is " + age + " It`s less then")}
-//         else if (age >= age_2 && age < age_3){
-//         alert("Welcome  !");}
-//         else if (age > age_3){
-//         alert("Keep calm and look Culture channel");
-//         }else{
-//         alert("Technical work");}
-// }
-// prompt('Сколько тебе лет', '');
 
-// let age = prompt('Сколько тебе лет?', '');
-// function check(age){
-//   if (age < age_2) {
-//     Alert("You don`t have access cause your age is " + nm + " It`s less then")}
-//     else if (age >= age_2 && age < age_3){
-//     Alert("Welcome  !");}
-//     else if (age > age_3){
-//     Alert( "Keep calm and look Culture channel" );}
-//   else{
-//     Alert("Technical work");}}
+function checkAge(age) {
+  age = Number(age)
+  if(Number(age)){
+  if (age < age_2) {
+    alert("You don`t have access cause your age is " + age + " It`s less then")}
+  else if (age >= age_2 && age < age_3){
+    alert("Welcome  !");}
+  else if (age > age_3){
+    alert("Keep calm and look Culture channel");}
+  else {
+    alert("Technical work");}
+  }else{
+    alert("Error")
+  }
+}
+checkAge(age)
+let age = prompt("Сколько Вам лет?");
