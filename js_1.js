@@ -28,7 +28,7 @@ console.log(item_3 * item_4);
 let item_5 = item_3;
 let item_6 = 15;
 let item_6_type = typeof(item_6);
-console.log(typeof("item_6 =="+item_6, "item_6_type =="+item_6_type));
+console.log(typeof("item_6 ==", item_6, "item_6_type ==", item_6_type));
 
 // Создать переменную item_7 и в ней преобразовать item_6 в String.
 // Создать переменную item_7_type
@@ -36,7 +36,7 @@ console.log(typeof("item_6 =="+item_6, "item_6_type =="+item_6_type));
 // Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——
 let item_7 = String(item_6);
 let item_7_type = typeof(item_7);
-console.log(typeof("item_7 =="+item_7, "item_7_type =="+item_7_type));
+console.log(typeof("item_7 ==", item_7, "item_7_type ==", item_7_type));
 
 // Создать переменную “age_1” и присвоить ей значение 10
 // Создать переменную “age_2” и присвоить ей значение 18
@@ -122,7 +122,6 @@ checkAge("2");
 
 // 4***:
 // Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
-
 function checkAge(age) {
   age = Number(age)
   if(Number(age)){
