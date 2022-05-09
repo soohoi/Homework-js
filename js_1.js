@@ -57,7 +57,7 @@ else if (age_1 >= age_3){
     console.log("Keep calm and look Culture channel");
 }else{
     console.log("Technical work")}
-
+//add new changes 
 // HW_1* 
 // Задания с разным количеством звездочек:)
 // 1*:
