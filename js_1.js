@@ -53,11 +53,15 @@ if (age_1 < age_2) {
     console.log("You don`t have access cause your age is " + age_1 + " It`s less then")}
     else if (age_1 >= age_2 && age_1 < age_3){
     console.log("Welcome  !");}
+<<<<<<< HEAD
     else if (age_1 >= age_3){
+=======
+else if (age_1 >= age_3){
+>>>>>>> 49683467ec00197315ef17cfef7123bc3d103657
     console.log("Keep calm and look Culture channel");
 }else{
     console.log("Technical work")}
-
+//add new changes 
 // HW_1* 
 // Задания с разным количеством звездочек:)
 // 1*:
@@ -79,6 +83,7 @@ let checkAge = function(age) {
 checkAge(17);
 checkAge(18);
 checkAge(61);
+//kelya1litr
 
 // 2*:
 // Преобразовать задание 1* таким образом, чтобы первым делом в функции проверялся тип данных. И если он не Number - кидалась ошибка.
