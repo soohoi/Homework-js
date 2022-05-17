@@ -19,26 +19,28 @@ CheckNum(x2)
 // :):):)
 // :):):):)
 // :):):):):)
-let 1x = ":)";
-for(1x = 1; 1x < 6; 1x++){
-  console.log(1x);}
+let xX = ":)";
+let XX = ":):):):):):)"
+for(xX != XX; xX+=) {
+  console.log(xX);
+}
 
 // 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода
-e.g. function printSmile(stroka, numberOfRows){
-for(stroka = 1; stroka < 6; stroka++)
-for(numberOfRows = 1; numberOfRows < 6; numberOfRows++)
-  console.log(numberOfRows, stroka);}
-printSmile(":)", 1);
+// e.g. function printSmile(stroka, numberOfRows){
+// for(stroka = 1; stroka < 6; stroka++)
+// for(numberOfRows = 1; numberOfRows < 6; numberOfRows++)
+//   console.log(numberOfRows, stroka);}
+// printSmile(":)", 1);
 
 // 3**. Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных, и сколько согласных букв.
 // e.g. function getWordStructure(word)
 // В консоли:
 // Слово (word) состоит из (число) гласных и (число) согласных букв
 // Проверки: 'case', 'Case', 'Check-list'
-e.g. function getWordStructure(word)
-let X = [A, a, E, e, I, i, O, o, U, u, Y, y];
-let O != [A, a, E, e, I, i, O, o, U, u, Y, y];
-for(word = , )
-getWordStructure(case);
-getWordStructure(Case);
-getWordStructure(Check-list);
+// e.g. function getWordStructure(word)
+// let X = [A, a, E, e, I, i, O, o, U, u, Y, y];
+// let O != [A, a, E, e, I, i, O, o, U, u, Y, y];
+// for(word = , )
+// getWordStructure(case);
+// getWordStructure(Case);
+// getWordStructure(Check-list);
