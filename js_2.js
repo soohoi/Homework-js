@@ -35,3 +35,5 @@ while(numberOfRows < 6){
  stroka=stroka + ":)";}
 }
 printSmile(":)", 1);
+
+//3**
