@@ -55,3 +55,13 @@ function getWordStructure(word){
 getWordStructure("case");
 getWordStructure("Case");
 getWordStructure("Check-list");
+
+// 4**
+// Написать функцию, которая проверяет, является ли слово палиндромом
+// e.g. function isPalindrom(word)
+// Проверки: 'Abba'
+function isPalindrom(word2) {
+  return word2.toLowerCase() == word2.toLowerCase().split("").reverse().join("")
+}
+console.log(`${isPalindrom("Abba") ? "It is a palindrome" : "It is not a palindrome"}`)
+isPalindrom("Abba")
