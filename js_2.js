@@ -42,3 +42,16 @@ printSmile(":)", 1);
 // В консоли:
 // Слово (word) состоит из (число) гласных и (число) согласных букв
 // Проверки: 'case', 'Case', 'Check-list'
+function getWordStructure(word){
+  let X = 0;
+  let Y = 0;
+  let gl = ["a", "e", "i", "o", "u", "y"];
+  let sgl = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"];
+  for(word1 of word.toLowerCase()){
+  if(gl.includes(word1)) X++;
+  if(sgl.includes(word1)) Y++;}
+  console.log("Слово " + word + " состоит из " + X + " гласных и " + Y + " согласных букв")
+}
+getWordStructure("case");
+getWordStructure("Case");
+getWordStructure("Check-list");
