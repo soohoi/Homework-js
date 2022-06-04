@@ -27,5 +27,5 @@ function strokaNum(word){
         console.log('Должна быть хотя бы одна @')}
       else if(!word.includes(b)){
         console.log('Должна быть хотя бы одна цифра')}
-      else{console.log('welcome!')}}
+    else{console.log('welcome!')}}
   strokaNum("12344a@")
