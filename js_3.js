@@ -10,9 +10,9 @@
 function strokaNum(word){
   word = String(word)
     let qwe = word.length
-    let x = [a-z]
-    let c = [A-Z]
-    let b = [0-9]
+    let x = ['a-z']
+    let c = ['A-Z']
+    let b = ['0-9']
     if(qwe < 1){
         console.log("Строка не должна быть пустой")}
       else if(qwe <= 4){
