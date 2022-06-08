@@ -48,7 +48,7 @@ function getWordStructure(word){
   let Y = 0;
   let gl = ["a", "e", "i", "o", "u", "y"];
   let sgl = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"];
-  for(word1 of word.toLowerCase()){
+  for(word of word.toLowerCase()){
   if(gl.includes(word)) X++;
   if(sgl.includes(word)) Y++;}
   console.log("Слово " + word + " состоит из " + X + " гласных и " + Y + " согласных букв")
