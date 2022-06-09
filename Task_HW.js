@@ -90,7 +90,7 @@ regUsers('10.10.2021')
 // Откройте в VSCode task2.json файл. Скопируйте из него JSONку, вставьте в свой код (присвоив в переменную).
 // Дан массив объектов. Каждый объект является идентификационной карточкой человека. Нам нужно хранить только уникальные значения в этом массиве. Реализуйте функцию, которая будет выполнять эту работу.
 
-let tast2 = [{
+let task2 = [{
     "name": "Leanne Graham",
     "username": "Bret",
     "email": "Sincere@april.biz",
@@ -443,7 +443,15 @@ let tast2 = [{
     }
 }
 ]
-console.log()
+function uniq(mas) {
+    let newMas = [];
+    for (let i = 0; i < mas.length; i++) {
+      if (!newMas.includes(mas[i])) {
+        newMas.push(mas[i]);
+      }
+    }
+    return newMas}
+console.log(task2)
 
 // Task 2*** Реализуйте считывание из JSONки из файла task2.json с помощью, например, модуля fs. для дальнейшего использования в функции, описанной в задании
 
